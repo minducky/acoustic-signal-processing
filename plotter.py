@@ -1,6 +1,7 @@
 import plotly.graph_objects as go
 
-from analysis import *
+import numpy as np
+from analysis import cal_fft, cal_psd, cal_stft, cal_melspec
 
 
 # %% Plot function (1d, 2d)
